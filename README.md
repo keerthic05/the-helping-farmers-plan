@@ -1,4 +1,4 @@
-## First Farmers Quiz (Starter Project)
+## Farmers Quiz Project
 
 Remix this starter code or just use it to see how you might get started on your personality quiz.
 
@@ -14,8 +14,7 @@ Your quiz should:
 * Allow the user to select an answer choice by clicking a button or photo.
 * Produce different results for different combinations of selections.
 
-## Project Extensions
-Once you meet the basic requirements, you might:
+## Project Extensions - if there is more time
 
 * **Extension 1:** Lengthen your quiz with more questions.
 * **Extension 2:** Allow the user to retake or restart the quiz.

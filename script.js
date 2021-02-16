@@ -7,6 +7,8 @@ var twoScore = 0;
 var threeScore = 0;
 var fourScore = 0;
 
+
+
 //#TODO: Use the DOM to create variables for the first quiz question.
 var q1a1 = document.getElementById("q1a1");
 var q1a2 = document.getElementById("q1a2");
@@ -79,11 +81,10 @@ function four() {
   }
 }
 function updateResult() {
-  if (threeScore >= 2) {
-    result.innerHTML =
-      "Wow! You know a good amount of information about the protests! Head to next page to see what you can do to help.";
-  } else {
-    result.innerHTML =
-      "Hmm.. It seems like you don't know much about the issue. Head to the About section of the website to learn more!";
+  if (oneScore >= 2) {
+    result.innerHTML = "Wow! You know a good amount of information about the protests! Head to next page to see what you can do to help. Reload the page if you want to retake the quiz.";
+  }
+  else {
+    result.innerHTML = "Hmm.. It seems like you don't know much about the issue. Head to the About section of the website to learn more! Reload the page if you want to retake the quiz.";
   }
 }
