@@ -1,74 +1,32 @@
 /*TODO: Add a background color or image to your website*/
 * {
-  margin: 20px;
+  margin: 0px;
   padding: 0px;
 }
 
 body {
   font-size: 100%;
-  text-align: left;
+  text-align: center;
 }
 
-#home {
-  background-color: #d5f4e6;
+#quiz-home {
+  background-color: #d9ead3ff;
 }
 
-#help {
-  background-color: #ffe0e0ff;
-}
-
-
-/*Navbar Formatting*/
-nav {
-  background-color: #737373;
-  font-family: "Benne", serif;
-  text-align: left;
-  margin-bottom: 40px;
-}
-
-ul {
-  margin-left: 12em;
-
-  list-style-type: none;
-  padding: 1em;
-  background-color: #737373;
-  overflow: auto;
-}
-
-li {
-  display: inline;
-  border-right: 2px solid #ffffff;
-}
-
-li:first-child {
-  border-left: 2px solid #ffffff;
-}
-
-li a {
+h1 {
   color: #80ced6;
-  font-size: 1em;
+  font-family: Courier New;
   font-weight: bold;
-  text-decoration: none;
+  font-size: 3.5em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+}
+
+button {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  border: none;
+  background: gray;
   padding: 1em;
-}
-
-li a:hover {
-  color: #f18973;
-  background-color: #d9d9d9;
-}
-
-a {
-  display: inline;
-  margin-right: 0.25em;
-}
-
-.blog-post {
-  font-size: 100%;
-  text-align: center;
-  font-family: "Bebas Neue";
-}
-
-.title{
-  margin-bottom: 30px;
-  text-align: center;
 }
